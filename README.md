@@ -1,7 +1,7 @@
 # EFForTS upscaling workshop 2023: Introduction to species distribution models (SDMs)
 Upscaling workshop CRC-990 EFForTS Göttingen 14-Feb-2023
 
-Teaching material by Damaris Zurell (Ecology & Macroecology, Univ. Potsdam), damaris@zurell.de
+Teaching material by Damaris Zurell (Ecology & Macroecology, Univ. Potsdam), damaris@zurell.de, https://damariszurell.github.io
 
 Download the zip-folder of this repository and unpack it. Open the script "SDM_RingOuzel.R" and get started.
 
