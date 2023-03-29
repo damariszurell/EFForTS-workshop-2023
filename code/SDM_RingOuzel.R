@@ -308,7 +308,7 @@ plot(r_pred_fut, axes=F)
 # RANDOM FOREST
 #----------------
 
-# Fit RF with 1000 trees (a question/warning pops up whether we really want to do regression: YES, we want to.)
+# Fit RF with 1000 trees (a question/warning pops up whether we really want to do regression: YES, we want to. With binary data, you could also use classification by setting the argument y=as.factor(sp_dat$Turdus_torquatus) but from experience regression produces the better results.)
 m_rf <- randomForest( x=sp_dat[,my_preds], y=sp_dat$Turdus_torquatus, 
                       ntree=1000, importance =T)
 
